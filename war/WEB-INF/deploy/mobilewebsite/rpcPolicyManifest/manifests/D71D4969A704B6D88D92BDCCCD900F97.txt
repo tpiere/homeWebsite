@@ -1,2 +1,0 @@
-serviceClass: com.tompiere.website.client.GreetingService
-path: 5A770962D189D44D853A980011D67371.gwt.rpc

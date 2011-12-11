@@ -7,18 +7,36 @@
 
   <!-- Servlets -->
   <servlet>
-    <servlet-name>greetServlet</servlet-name>
-    <servlet-class>com.tompiere.website.server.GreetingServiceImpl</servlet-class>
+    <servlet-name>home</servlet-name>
+    <jsp-file>/jsp/completeHtmlPages/home_complete.jsp</jsp-file>
+    <init-param>
+    	<param-name>pageName</param-name>
+    	<param-value>home</param-value>
+    </init-param>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>dowJones</servlet-name>
+    <jsp-file>/jsp/base.jsp</jsp-file>
+    <init-param>
+    	<param-name>pageName</param-name>
+    	<param-value>dowJones</param-value>
+    </init-param>
   </servlet>
   
   <servlet-mapping>
-    <servlet-name>greetServlet</servlet-name>
-    <url-pattern>/mobilewebsite/greet</url-pattern>
+    <servlet-name>home</servlet-name>
+    <url-pattern>/home</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>dowJones</servlet-name>
+    <url-pattern>/dowJones</url-pattern>
   </servlet-mapping>
   
   <!-- Default page to serve -->
   <welcome-file-list>
-    <welcome-file>home.html</welcome-file>
+    <welcome-file>MobileWebsite.html</welcome-file>
   </welcome-file-list>
 
 </web-app>

@@ -1,3 +1,0 @@
-# Module mobilewebsite
-# RPC service class, partial path of RPC policy file
-com.tompiere.website.client.GreetingService, 5A770962D189D44D853A980011D67371.gwt.rpc
