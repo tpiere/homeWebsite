@@ -4,7 +4,7 @@
 	<li><a href="/dowJones">Dow Jones</a>
 	</li>
 	<li><a href="/thomsonReuters">Thomson Reuters</a></li>
-	<li>Kustom Joe's</li>
+	<li><a href="/kustomJoes">Kustom Joe's</a></li>
 	<li>Realistic Taxidermy</li>
 	<li>Chipmark</li>
 </ul>
