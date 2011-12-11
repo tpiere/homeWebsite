@@ -1,2 +1,7 @@
 Thumbs.db
 /.idea
+/.gwt
+/gwt-unitCache
+/test-classes
+*.class
+*.jar
