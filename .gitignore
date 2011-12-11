@@ -5,3 +5,6 @@ Thumbs.db
 /test-classes
 *.class
 *.jar
+*.cache.*
+*.symbolMap
+*.rpc
