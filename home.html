@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tom Piere Home Page (Mobile)</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css"/>
+    <link rel="stylesheet" href="themes/homeTheme.min.css"/>
+    <link rel="stylesheet" href="css/home.css"/>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>
+</head>
+
+<body>
+
+<!-- Start of first page -->
+<div data-role="page" id="home" class="page">
+
+    <div class="innerPageWrapper">
+        <div data-role="header">
+            <div class="logoHolder">
+                <h1>
+                    <a href="#foo">
+                        <img id="logo" alt="tompiere.com" src="images/homeLogo_noBackground.png"/>
+                    </a>
+                </h1>
+            </div>
+        </div>
+        <!-- /header -->
+
+        <div data-role="content">
+            <ul data-role="listview" data-theme="b" class="mainNav">
+                <li>
+                    <div data-role="collapsible" data-animated="slide" data-collapsed="true">
+                        <h3>Projects</h3>
+                        <ul data-role="listview" data-inset="true" data-theme="b">
+                            <li><a href="#ameripriseFinancial">Ameriprise Financial</a></li>
+                            <li><a href="#dowJones">Dow Jones</a></li>
+                            <li>Thomson Reuters</li>
+                            <li>Kustom Joe's</li>
+                            <li>Realistic Taxidermy</li>
+                            <li>Chipmark</li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </div>
+        <!-- /content -->
+
+        <div data-role="footer">
+
+        </div>
+    </div>
+    <!-- /footer -->
+</div>
+<!-- /page -->
+
+
+<!-- Start of second page -->
+<div data-role="page" id="ameripriseFinancial">
+
+    <div data-role="header">
+        <h1>
+            <a href="#home" data-role="button" data-icon="home" data-iconpos="notext"></a>
+            <a href="http://www.ameriprise.com">
+                <img alt="Ameriprise Financial logo.com" src="images/Ameriprise_Financial_logo.png"/>
+            </a>
+        </h1>
+    </div>
+    <!-- /header -->
+
+    <div data-role="content">
+        <p>I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that
+            references my ID is beeing clicked.</p>
+    </div>
+    <!-- /content -->
+
+    <div data-role="footer">
+        <h4>Page Footer</h4>
+    </div>
+    <!-- /footer -->
+</div>
+<!-- Start of second page -->
+<div data-role="page" id="dowJones">
+
+    <div data-role="header">
+        <h1>
+            <a href="#home" data-role="button" data-icon="home" data-iconpos="notext"></a>
+            <a href="http://www.ameriprise.com">
+                <img id="dowJonesLogo" alt="Dow Jones logo.com" src="images/dowJones.jpg"/>
+            </a>
+        </h1>
+    </div>
+    <!-- /header -->
+
+    <div data-role="content">
+        <p>
+            <a href="http://www.dowjones.com/">Dow Jones</a> is a news corporation with a suite of products and websites
+            that
+            provide financial information and analysis.
+        </p>
+
+        <p class="projectLogo">
+            <a href="http://online.wsj.com/home-page">
+                <img src="images/wsj.jpg" alt="Wall Street Journal Logo"/></a>
+
+            <a href="http://www.marketwatch.com">
+                <img src="images/marketWatchLogo.png" alt="MarketWatch Logo"/></a>
+        </p>
+
+        <p>
+            I primarily worked on the <a href="http://online.wsj.com/home-page">Wall Street Journal&apos;s</a> website,
+            focusing
+            on charting solutions for the company research portion of the site.
+        </p>
+
+        <p>
+            I implemented the <a href="http://quotes.wsj.com/NFLX/interactive-chart">interactive chart page</a> which
+            allows users to perform technical analysis on securities
+            with a highly interactive flash chart. I worked on embedding the flash object on the page and updating
+            and implementing the menus that interact with the chart and news articles.
+        </p>
+
+        <p>
+            I built the <a href="http://quotes.wsj.com/NFLX/research-ratings">Per-Share Earnings, Actuals and
+            Estimates</a>
+            chart which provides a quick and simple visual representation of a company&apos;s earnings compared to
+            estimates.
+        </p>
+
+        <p>
+            I built the <a href="http://quotes.wsj.com/NFLX/news">News Coverage</a>
+            chart which displays the number of news articles over a time period for a security as a bar chart.
+        </p>
+
+        <p>
+            Finally, I worked on a solution to overlay data points on a stock price chart, and
+            fixed bugs for MarketWatch.com and the Wall Street Journal&apos;s website.
+        </p>
+
+        <p>During the project, I gained experience with the following technologies</p>
+        <ul data-role="listview" data-inset="true" data-theme="b">
+            <li>ASP.Net MVC</li>
+            <li>REST services</li>
+            <li>Javascript</li>
+            <li>AJAX</li>
+            <li>JSON</li>
+            <li>XHTML</li>
+            <li>CSS</li>
+            <li>Optimizing web performance</li>
+            <li>Embedding Flash</li>
+            <li>jQuery</li>
+            <li>dojo</li>
+            <li>YUI</li>
+            <li>Git source control</li>
+            <li>Subversion source control</li>
+        </ul>
+    </div>
+    <!-- /content -->
+
+    <div data-role="footer">
+        <h4>Page Footer</h4>
+    </div>
+    <!-- /footer -->
+</div>
+<!-- /page -->
+<!-- Start of second page -->
+<div data-role="page" id="about">
+
+    <div data-role="header">
+        <h1>
+            <a href="#home" data-role="button" data-icon="home" data-iconpos="notext"></a>
+            About
+        </h1>
+    </div>
+    <!-- /header -->
+
+    <div data-role="content">
+        <p>I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that
+            references my ID is beeing clicked.</p>
+    </div>
+    <!-- /content -->
+
+    <div data-role="footer">
+        <div>
+            <a href="http://validator.w3.org/check?uri=referer">
+                <img src="http://www.w3.org/Icons/valid-xhtml11-blue" alt="Valid XHTML 1.1" style="border: 0;
+                        width: 88px; height: 31px"/></a> <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border: 0; width: 88px; height: 31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                 alt="Valid CSS!"/></a>
+            <img src="http://code.google.com/appengine/images/appengine-noborder-120x30.gif"
+                 alt="Powered by Google App Engine"/>
+        </div>
+    </div>
+    <!-- /footer -->
+</div>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+
+.ui-header h1.ui-title{
+
+}
+
+.ui-header h1.ui-title img{
+    /*background-color: #24221F;*/
+}
+
+.page{
+    background-image: url(../images/pattern8-pattern-5a.png);
+    background-repeat: repeat;
+}
+
+.logoBackground{
+    display: block;
+    width:220px;
+    height:90px;
+    position: relative;
+    left:-221px;
+}
+
+.mainNav{
+    max-width: 400px;
+}
+
+.innerPageWrapper{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    border: 3px #dadada solid;
+    padding: 3px;
+    border-radius: 10px;
+    -moz-box-shadow: -10px -10px 5px #888;
+-webkit-box-shadow: -10px -10px 5px #888;
+box-shadow: 2px 2px 5px #888;
+    
+}
