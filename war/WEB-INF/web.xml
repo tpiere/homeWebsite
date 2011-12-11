@@ -22,6 +22,15 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 			<param-value>dowJones</param-value>
 		</init-param>
 	</servlet>
+	
+	<servlet>
+		<servlet-name>thomsonReuters</servlet-name>
+		<jsp-file>/jsp/completeHtmlPages/thomsonReuters_complete.jsp</jsp-file>
+		<init-param>
+			<param-name>pageName</param-name>
+			<param-value>thomsonReuters</param-value>
+		</init-param>
+	</servlet>
 
 	<servlet-mapping>
 		<servlet-name>home</servlet-name>
@@ -31,6 +40,11 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 	<servlet-mapping>
 		<servlet-name>dowJones</servlet-name>
 		<url-pattern>/dowJones</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>thomsonReuters</servlet-name>
+		<url-pattern>/thomsonReuters</url-pattern>
 	</servlet-mapping>
 
 	<!-- Default page to serve -->
