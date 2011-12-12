@@ -2,7 +2,7 @@
 	<div data-role="header">
 		<h1>
 			<img id="logo" alt="tompiere.com"
-				src="/images/homeLogo_noBackground.png" /> 
+				src="/images/homeLogo_large.png" /> 
 		</h1>
 	</div>
 	<!-- /header -->
