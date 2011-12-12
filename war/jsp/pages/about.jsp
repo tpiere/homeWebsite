@@ -4,7 +4,7 @@
 		<h1>
 			<a href="/home" data-role="button" data-icon="home"
 				data-iconpos="notext"></a> <img id="logo" alt="tompiere.com"
-				src="/images/homeLogo_large.png" /> 
+				src="/images/homeLogo_noBackground.png" /> 
 		</h1>
 	</div>
 	<!-- /header -->

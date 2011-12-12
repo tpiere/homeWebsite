@@ -2,3 +2,8 @@
 #realisticTaxidermyLogo{
 	background-color:#fff;
 }
+
+.ui-header h1.ui-title{
+	margin-left:0;
+	margin-right:0;
+}
