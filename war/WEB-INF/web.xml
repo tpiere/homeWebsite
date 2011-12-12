@@ -40,6 +40,33 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 			<param-value>kustomJoes</param-value>
 		</init-param>
 	</servlet>
+	
+	<servlet>
+		<servlet-name>realisticTaxidermy</servlet-name>
+		<jsp-file>/jsp/completeHtmlPages/realisticTaxidermy_complete.jsp</jsp-file>
+		<init-param>
+			<param-name>pageName</param-name>
+			<param-value>realisticTaxidermy</param-value>
+		</init-param>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>chipmark</servlet-name>
+		<jsp-file>/jsp/completeHtmlPages/chipmark_complete.jsp</jsp-file>
+		<init-param>
+			<param-name>pageName</param-name>
+			<param-value>chipmark</param-value>
+		</init-param>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>about</servlet-name>
+		<jsp-file>/jsp/completeHtmlPages/about_complete.jsp</jsp-file>
+		<init-param>
+			<param-name>pageName</param-name>
+			<param-value>about</param-value>
+		</init-param>
+	</servlet>
 
 	<servlet-mapping>
 		<servlet-name>home</servlet-name>
@@ -59,6 +86,21 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 	<servlet-mapping>
 		<servlet-name>kustomJoes</servlet-name>
 		<url-pattern>/kustomJoes</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>realisticTaxidermy</servlet-name>
+		<url-pattern>/realisticTaxidermy</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>chipmark</servlet-name>
+		<url-pattern>/chipmark</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>about</servlet-name>
+		<url-pattern>/about</url-pattern>
 	</servlet-mapping>
 
 	<!-- Default page to serve -->
